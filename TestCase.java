@@ -34,4 +34,5 @@ public class TestCase {
 	public void testPassword() {
 		assertTrue(registration.password("Dolly@78"));
 	}
+
 }
