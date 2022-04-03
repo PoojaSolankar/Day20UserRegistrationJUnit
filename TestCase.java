@@ -17,7 +17,7 @@ public class TestCase {
 	
 	@Test
 	public void testLastName() {
-		assertTrue(registration.lastName("Patit"));
+		assertTrue(registration.lastName("Patil"));
 	}
 	
 	@Test
@@ -28,5 +28,10 @@ public class TestCase {
 	@Test
 	public void testMobileNumber() {
 		assertTrue(registration.mobileNumber("91 9960322320"));
+	}
+	
+	@Test
+	public void testPassword() {
+		assertTrue(registration.password("Dolly@78"));
 	}
 }
