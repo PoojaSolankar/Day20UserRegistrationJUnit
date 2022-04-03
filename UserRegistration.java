@@ -11,4 +11,12 @@ public class UserRegistration {
 		}
 		return false;
 	}
+	
+	public static boolean lastName(String lastName) {
+		String LastName = "[A-Z]{1}[a-z]{3}";
+		if(lastName.matches(lastName)) {
+			return true;
+		}
+		return false;
+	}
 }

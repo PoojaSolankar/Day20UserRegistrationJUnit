@@ -14,4 +14,9 @@ public class TestCase {
 		assertTrue(registration.firstName("Dolly"));
 		
 	}
+	
+	@Test
+	public void testLastName() {
+		assertTrue(registration.lastName("Patit"));
+	}
 }
