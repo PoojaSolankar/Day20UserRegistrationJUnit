@@ -24,4 +24,9 @@ public class TestCase {
 	public void testEmailID() {
 		assertTrue(registration.emailId("abc-xyz@gmail.com.in"));
 	}
+	
+	@Test
+	public void testMobileNumber() {
+		assertTrue(registration.mobileNumber("91 9960322320"));
+	}
 }
